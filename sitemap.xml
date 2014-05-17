@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chly.github.io/search/index.html</loc>
+    <lastmod>2014-05-17T17:21:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chly.github.io/tags/index.html</loc>
+    <lastmod>2014-05-17T16:46:31.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://chly.github.io/categories/index.html</loc>
+    <lastmod>2014-05-17T16:45:42.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://chly.github.io/about/index.html</loc>
     <lastmod>2014-05-17T12:24:06.000Z</lastmod>
   </url>
