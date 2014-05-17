@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-16T12:01:08.394Z</updated>
+  <updated>2014-05-17T10:03:23.582Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -13,6 +13,17 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[中心办公会议汇报]]></title>
+    <link href="http://chly.github.io/2014/05/16/%E4%B8%AD%E5%BF%83%E5%8A%9E%E5%85%AC%E4%BC%9A%E8%AE%AE%E6%B1%87%E6%8A%A5/"/>
+    <id>http://chly.github.io/2014/05/16/中心办公会议汇报/</id>
+    <published>2014-05-16T12:08:32.000Z</published>
+    <updated>2014-05-16T12:08:32.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Openedx平台与教育大数据相关的模块及功能]]></title>
@@ -74,9 +85,17 @@
     <link href="http://chly.github.io/2014/05/15/supervisor%E6%8F%AD%E5%BC%80openedx%E5%A4%9A%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E7%9A%84%E9%9D%A2%E7%BA%B1/"/>
     <id>http://chly.github.io/2014/05/15/supervisor揭开openedx多服务管理的面纱/</id>
     <published>2014-05-15T09:51:07.000Z</published>
-    <updated>2014-05-15T09:51:07.000Z</updated>
+    <updated>2014-05-17T10:02:59.000Z</updated>
     <content type="html"><![CDATA[]]></content>
     
+    
+      <category term="OpenEdx" scheme="http://chly.github.io/tags/OpenEdx/"/>
+    
+      <category term="Ansible" scheme="http://chly.github.io/tags/Ansible/"/>
+    
+      <category term="系统运维" scheme="http://chly.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
+    
+      <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
@@ -97,17 +116,6 @@
     <id>http://chly.github.io/2014/05/15/openedx系统支持高并发的物质基础/</id>
     <published>2014-05-15T09:47:03.000Z</published>
     <updated>2014-05-15T09:47:03.000Z</updated>
-    <content type="html"><![CDATA[]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[制作简体中文版OpenEdx手册]]></title>
-    <link href="http://chly.github.io/2014/05/15/%E5%88%B6%E4%BD%9C%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E7%89%88openedx%E6%89%8B%E5%86%8C/"/>
-    <id>http://chly.github.io/2014/05/15/制作简体中文版openedx手册/</id>
-    <published>2014-05-15T09:45:41.000Z</published>
-    <updated>2014-05-15T09:45:41.000Z</updated>
     <content type="html"><![CDATA[]]></content>
     
     
@@ -136,28 +144,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[使用Ansible部署OpenEdx发布版]]></title>
-    <link href="http://chly.github.io/2014/05/15/%E4%BD%BF%E7%94%A8ansible%E9%83%A8%E7%BD%B2openedx%E5%8F%91%E5%B8%83%E7%89%88/"/>
-    <id>http://chly.github.io/2014/05/15/使用ansible部署openedx发布版/</id>
-    <published>2014-05-15T09:38:13.000Z</published>
-    <updated>2014-05-15T09:38:13.000Z</updated>
-    <content type="html"><![CDATA[]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[认识git]]></title>
-    <link href="http://chly.github.io/2014/05/15/%E8%AE%A4%E8%AF%86git/"/>
-    <id>http://chly.github.io/2014/05/15/认识git/</id>
-    <published>2014-05-15T09:37:24.000Z</published>
-    <updated>2014-05-15T09:37:24.000Z</updated>
-    <content type="html"><![CDATA[]]></content>
-    
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <link href="http://chly.github.io/2014/05/15/hello-world/"/>
     <id>http://chly.github.io/2014/05/15/hello-world/</id>
@@ -170,11 +156,30 @@
   </entry>
   
   <entry>
+    <title><![CDATA[制作简体中文版OpenEdx手册]]></title>
+    <link href="http://chly.github.io/2014/04/15/%E5%88%B6%E4%BD%9C%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E7%89%88openedx%E6%89%8B%E5%86%8C/"/>
+    <id>http://chly.github.io/2014/04/15/制作简体中文版openedx手册/</id>
+    <published>2014-04-15T09:45:41.000Z</published>
+    <updated>2014-05-17T09:57:58.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="OpenEdx" scheme="http://chly.github.io/tags/OpenEdx/"/>
+    
+      <category term="sphinx" scheme="http://chly.github.io/tags/sphinx/"/>
+    
+      <category term="python" scheme="http://chly.github.io/tags/python/"/>
+    
+      <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[从技术的视角解构OpenEdx]]></title>
     <link href="http://chly.github.io/2014/03/15/%E4%BB%8E%E6%8A%80%E6%9C%AF%E7%9A%84%E8%A7%86%E8%A7%92%E8%A7%A3%E6%9E%84openedx/"/>
     <id>http://chly.github.io/2014/03/15/从技术的视角解构openedx/</id>
     <published>2014-03-15T09:40:01.000Z</published>
-    <updated>2014-05-15T12:27:09.000Z</updated>
+    <updated>2014-05-17T10:03:02.000Z</updated>
     <content type="html"><![CDATA[<p>开源的OpenEdx用的是什么平台？用的是什么开发环境？具体架构是什么？<br>本文用一幅图描述了OpenEdx的技术环境<br><strong>运行平台</strong></p>
 <p><strong>开发环境</strong></p>
 <p><strong>系统架构</strong></p>
@@ -191,6 +196,36 @@
       <category term="环境架构" scheme="http://chly.github.io/tags/%E7%8E%AF%E5%A2%83%E6%9E%B6%E6%9E%84/"/>
     
       <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用Ansible部署OpenEdx发布版]]></title>
+    <link href="http://chly.github.io/2014/03/07/%E4%BD%BF%E7%94%A8ansible%E9%83%A8%E7%BD%B2openedx%E5%8F%91%E5%B8%83%E7%89%88/"/>
+    <id>http://chly.github.io/2014/03/07/使用ansible部署openedx发布版/</id>
+    <published>2014-03-07T09:38:13.000Z</published>
+    <updated>2014-05-17T10:02:57.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="OpenEdx" scheme="http://chly.github.io/tags/OpenEdx/"/>
+    
+      <category term="Ansible" scheme="http://chly.github.io/tags/Ansible/"/>
+    
+      <category term="系统运维" scheme="http://chly.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
+    
+      <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[认识git]]></title>
+    <link href="http://chly.github.io/2013/05/15/%E8%AE%A4%E8%AF%86git/"/>
+    <id>http://chly.github.io/2013/05/15/认识git/</id>
+    <published>2013-05-15T09:37:24.000Z</published>
+    <updated>2014-05-17T09:55:38.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
     
   </entry>
   
