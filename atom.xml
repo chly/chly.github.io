@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-19T01:07:37.781Z</updated>
+  <updated>2014-05-19T08:36:00.350Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -15,13 +15,86 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[中心办公会议汇报]]></title>
-    <link href="http://chly.github.io/2014/05/16/%E4%B8%AD%E5%BF%83%E5%8A%9E%E5%85%AC%E4%BC%9A%E8%AE%AE%E6%B1%87%E6%8A%A5/"/>
-    <id>http://chly.github.io/2014/05/16/中心办公会议汇报/</id>
-    <published>2014-05-16T12:08:32.000Z</published>
-    <updated>2014-05-16T12:08:32.000Z</updated>
-    <content type="html"><![CDATA[]]></content>
+    <title><![CDATA[爱课程为什么选择网易为合作伙伴]]></title>
+    <link href="http://chly.github.io/2014/05/19/%E7%88%B1%E8%AF%BE%E7%A8%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%BD%91%E6%98%93%E4%B8%BA%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4/"/>
+    <id>http://chly.github.io/2014/05/19/爱课程为什么选择网易为合作伙伴/</id>
+    <published>2014-05-19T07:40:29.000Z</published>
+    <updated>2014-05-19T08:34:10.000Z</updated>
+    <content type="html"><![CDATA[<p>2014年5月17日，我在浙江大学紫金港校区圆正-启真酒店参加了《中国大学MOOC建设工作研讨会》。会上，很多人都很好奇为什么爱课程选择了网易作为合作伙伴，我想了想，对比了腾讯、新浪、百度，给出如下分析。以下仅代表个人观点，欢迎拍砖。</p>
+<h2 id="爱课程想找一个擅长做门户的国内较大的互联网商合作"><a href="http://www.icourses.cn/imooc/" target="_blank">爱课程</a>想找一个擅长做门户的国内较大的互联网商合作</h2>
+<p>国内较大的门户类互联网商有腾讯，新浪，百度</p>
+<h2 id="爱课程想做中国最好的MOOCs平台">爱课程想做中国最好的MOOCs平台</h2>
+<p>一个好的MOOCs平台要有<br><em>很好的课程视频服务技术
+</em>很好的SNS支持<br><em>有稳定的邮箱服务
+</em>对在线教学平台感兴趣<br><em>最好有学习辅助工具
+</em>最好有大型MOOCs平台运营经验</p>
+<h2 id="让我们对比一下这几个互联网商">让我们对比一下这几个互联网商</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>互联网商</th>
+<th>网易</th>
+<th>腾讯</th>
+<th>新浪</th>
+<th>百度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>课程视频服务经验优</td>
+<td>合格</td>
+<td>良</td>
+<td>合格</td>
+</tr>
+<tr>
+<td>SNS</td>
+<td>良</td>
+<td>优</td>
+<td>优</td>
+<td>良</td>
+</tr>
+<tr>
+<td>邮箱</td>
+<td>优</td>
+<td>优</td>
+<td>良</td>
+<td>无</td>
+</tr>
+<tr>
+<td>教育兴趣</td>
+<td>强</td>
+<td>一般</td>
+<td>较强</td>
+<td>较强</td>
+</tr>
+<tr>
+<td>学习工具</td>
+<td>优</td>
+<td>良</td>
+<td>良</td>
+<td>良</td>
+</tr>
+<tr>
+<td>MOOCs经验</td>
+<td>有</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+<p>综合以上六点，网易胜出。另外网易还有运营多年的有道词典、有道笔记，网易还开发游戏，开发游戏所用技术与课程上模拟演练相近，这些因素估计这些因素也为它加了不少分。<br>附四大互联网商课程相关平台：<br><a href="http://open.163.com/" target="_blank">网易</a><br><a href="http://class.qq.com/" target="_blank">腾讯</a> <a href="http://v.qq.com/zt2011/open/" target="_blank">国外大学公开课</a><br><a href="http://open.sina.com.cn/" target="_blank">新浪</a><br><a href="http://jiaoyu.baidu.com/xuetang/" target="_blank">百度</a></p>
+]]></content>
     
+    
+      <category term="爱课程" scheme="http://chly.github.io/tags/%E7%88%B1%E8%AF%BE%E7%A8%8B/"/>
+    
+      <category term="MOOCs平台" scheme="http://chly.github.io/tags/MOOCs%E5%B9%B3%E5%8F%B0/"/>
+    
+      <category term="中国MOOCs" scheme="http://chly.github.io/tags/%E4%B8%AD%E5%9B%BDMOOCs/"/>
+    
+      <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
