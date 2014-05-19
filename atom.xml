@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-19T01:04:52.688Z</updated>
+  <updated>2014-05-19T01:07:37.781Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -63,8 +63,8 @@
     <link href="http://chly.github.io/2014/05/15/%E5%8E%9F%E5%9E%8B%E7%B3%BB%E7%BB%9F%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6mean%E7%AE%80%E4%BB%8B/"/>
     <id>http://chly.github.io/2014/05/15/原型系统快速开发框架mean简介/</id>
     <published>2014-05-15T09:55:53.000Z</published>
-    <updated>2014-05-19T01:04:30.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="MEANMEAN是什么？">MEAN<a href="http://www.mean.io" target="_blank">MEAN</a>是什么？</h2>
+    <updated>2014-05-19T01:07:27.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="MMEAN是什么？">M<a href="http://www.mean.io" target="_blank">MEAN</a>是什么？</h2>
 <h3 id="mongoDB">mongoDB</h3>
 <p>NoSQL数据库典型代表，兼顾敏捷和可扩展性</p>
 <h3 id="express">express</h3>
