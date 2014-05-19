@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-19T09:50:01.728Z</updated>
+  <updated>2014-05-19T10:44:49.240Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -173,14 +173,17 @@
     <link href="http://chly.github.io/2014/05/15/%E4%BD%BF%E7%94%A8%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93mongodb%E7%AE%A1%E7%90%86%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%BA%90%E7%9A%84%E5%A5%BD%E5%A4%84/"/>
     <id>http://chly.github.io/2014/05/15/使用非关系型数据库mongodb管理课程资源的好处/</id>
     <published>2014-05-15T09:52:43.000Z</published>
-    <updated>2014-05-19T09:49:32.000Z</updated>
-    <content type="html"><![CDATA[<p>MOOCs课程资源特点</p>
+    <updated>2014-05-19T09:55:11.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="MOOCs课程资源特点">MOOCs课程资源特点</h2>
 <ul>
 <li>特征不一</li>
 <li>大小不一</li>
 <li>规格不一</li>
 <li>访问量大</li>
-<li>资源总量大<br>MongoDB特点</li>
+<li>资源总量大</li>
+</ul>
+<h2 id="MongoDB特点">MongoDB特点</h2>
+<ul>
 <li>键值存储</li>
 <li>对象存储</li>
 <li>支持二进制数据及大型对象</li>
