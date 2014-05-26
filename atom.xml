@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-26T03:43:25.391Z</updated>
+  <updated>2014-05-26T03:46:01.341Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://chly.github.io/2014/05/26/%E7%AC%AC%E4%B8%83%E5%B1%8A%E4%B8%AD%E5%9B%BDr%E8%AF%AD%E8%A8%80%E4%BC%9A%E8%AE%AE%E5%BD%92%E6%9D%A5/"/>
     <id>http://chly.github.io/2014/05/26/第七届中国r语言会议归来/</id>
     <published>2014-05-26T01:02:13.000Z</published>
-    <updated>2014-05-26T03:43:13.000Z</updated>
+    <updated>2014-05-26T03:45:51.000Z</updated>
     <content type="html"><![CDATA[<p>刚刚热起来的教育统计学并不是个新兴的领域，是自从教育产生后就有的，只不过原来很少引人注意。无论是做数字图书馆建设，还是做教学信息化支撑，必须妥善处理由此产生或与此相关的数据。围绕数据的采、存、管、捡、算、用，有大量知识和技能要掌握。从业务的实现上出发，什么最能很快出成效？R，所以R是对付好数据的最好切入点。<br>5月24-25日，人大和北大联合统计之都在北京组办了<a href="http://r-conference.org/" target="_blank">“第七届R语言会议”</a>。很幸运，去听了报告。收获颇丰。下面摘录几个关键字</p>
 <h2 id="吴喜之">吴喜之</h2>
 <p>珍视生命<br><img src="http://ssstudy.com/CSSN_Study_Net/videos/videoname20111129145220.jpg" alt="吴喜之老师"></p>
@@ -32,7 +32,7 @@
 <h2 id="林荟">林荟</h2>
 <p>数据分析最重要的是沟通，得让别人意识到并且认同你做这些工作的价值。</p>
 <h2 id="王汉生">王汉生</h2>
-<p>所有的模型都是做的，但是有一些是有用的<br>报告中讲了针对Sina Weibo标签的一些有意思的分析<br>！<a href="http://r-conference.org/img/speakers/wanghansheng.jpg" target="_blank">王汉生老师</a></p>
+<p>所有的模型都是做的，但是有一些是有用的<br>报告中讲了针对Sina Weibo标签的一些有意思的分析<br><img src="http://r-conference.org/img/speakers/wanghansheng.jpg" alt="王汉生老师"></p>
 <h2 id="李舰">李舰</h2>
 <p>讲了如何把R的强大揉进Office中，让Office飞。</p>
 <h2 id="欧阳鹤">欧阳鹤</h2>
