@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-26T09:58:22.945Z</updated>
+  <updated>2014-05-26T10:06:15.247Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -198,6 +198,24 @@
   </entry>
   
   <entry>
+    <title><![CDATA[中国MOOC交流会]]></title>
+    <link href="http://chly.github.io/2014/05/17/%E4%B8%AD%E5%9B%BDmooc%E6%B5%99%E5%A4%A7%E6%9D%AD%E5%B7%9E%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
+    <id>http://chly.github.io/2014/05/17/中国mooc浙大杭州交流会/</id>
+    <published>2014-05-17T12:43:32.000Z</published>
+    <updated>2014-05-26T10:04:17.000Z</updated>
+    <content type="html"><![CDATA[<p>2014年5月17日，在浙大本科生院的邀请下，中国MOOC平台相关人员为浙大老师介绍中国MOOC平台<br>会上，陆国栋教授做了《信息技术环境下教学改革的总体认识：133346模式》<a href="/adjunct/（杭州）信息技术环境下教学改革的总体认识：133346模式.pdf">查看报告</a>分享了他对高校教改的深入认识<br>中国科技大学罗昭锋做了《MOOC盛行的时代逻辑及实践探索》<a href="/adjunct/（杭州）MOOC盛行的时代逻辑及实践探索.pdf">查看报告</a>分享了他在网易云课堂，TopU等平台上课的体验、认识、总结<br>彭崇胜博士做了《慕课案例分享-中医药与中华传统文化》<a href="/adjunct/（杭州）慕课案例分享-中医药与中华传统文化.pdf">查看报告</a>分享了他在Coursera上做MOOC课程的经验)<br>2014年5月15日，在北京，清华大学于歆杰，做了《开设和实施MOOC过程中的一些体会》<a href="/adjunct/开设和实施MOOC过程中的一些体会（5-15）.pdf）分享了他在edx平台，学堂在线平台做MOOC课程电路原理的经验和感受。北京大学MOOC培训项目负责人王胜清副教授做了《面向MOOC课程建设与应用的教育技术支持》[查看报告](/adjunct/面向MOOC课程建设与应用的教育技术支持v2.pdf">查看报告</a></p>
+]]></content>
+    
+    
+      <category term="MOOC交流" scheme="http://chly.github.io/tags/MOOC%E4%BA%A4%E6%B5%81/"/>
+    
+      <category term="会议报告" scheme="http://chly.github.io/tags/%E4%BC%9A%E8%AE%AE%E6%8A%A5%E5%91%8A/"/>
+    
+      <category term="教学改革" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Openedx平台与教育大数据相关的模块及功能]]></title>
     <link href="http://chly.github.io/2014/05/15/openedx%E5%B9%B3%E5%8F%B0%E4%B8%8E%E6%95%99%E8%82%B2%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E7%9A%84%E6%A8%A1%E5%9D%97%E5%8F%8A%E5%8A%9F%E8%83%BD/"/>
     <id>http://chly.github.io/2014/05/15/openedx平台与教育大数据相关的模块及功能/</id>
@@ -373,18 +391,19 @@
   
   <entry>
     <title><![CDATA[理想的个人MOOC环境]]></title>
-    <link href="http://chly.github.io/2014/04/15/hello-world/"/>
-    <id>http://chly.github.io/2014/04/15/hello-world/</id>
-    <published>2014-04-15T09:34:54.000Z</published>
-    <updated>2014-05-26T09:58:08.000Z</updated>
+    <link href="http://chly.github.io/2014/04/12/%E7%90%86%E6%83%B3%E7%9A%84%E4%B8%AA%E4%BA%BAmooc%E7%8E%AF%E5%A2%83/"/>
+    <id>http://chly.github.io/2014/04/12/理想的个人mooc环境/</id>
+    <published>2014-04-12T09:34:54.000Z</published>
+    <updated>2014-05-26T10:01:20.000Z</updated>
     <content type="html"><![CDATA[<p>几经寻觅，终于搭建了理想中的个人MOOC环境<br>能被公网访问，可以发文章，文章能分类，能标签管理，可以放视频，可以放图片，与SNS无缝对接，能接受评论，能查看访客信息。啊，这实在是太好了！并且，用起来很方便！！还是免费的！！！<br>这种尤物到底是什么呢？<br>就是本站，由windows+git+Github+Nodejs+hexo+多说+google Analysis+Markdown+sublime打造<br>Windows 呢，嘿嘿，我不说你也懂。<br>git 呢，就是现在最流行的版本控制工具。它的资料实在太多，用它的人也实在太多，不信问GOOGLE，这里略过不讲哈<br>Gighub 呢，程序员们最喜欢用的社交站点，关键时可以挂站点，此站就挂在github上哦。很多大牛栖息与此哦，详见：<a href="http://www.yangzhiping.com/tech/github.html" target="_blank">如何高效利用GitHub</a>。<br>Nodejs 呢，不得不说，它是当今时代快速开发的利器。还不知道？问百度去。<br>hexo 呢，据说最初由台湾的一个大学生创造的，现在很多经常写博客的都从原来的阵地转移到这里来了。我追查了下常见的博客使用的环境的进化路线，大致是这样的：</p>
 <ul>
 <li>使用公共平台，如新浪、网易、科学网等</li>
 <li>建个完全由自己掌控的小站</li>
 <li>wordpress 现在很多名博还在用这个平台</li>
 <li>jekyll/octopress</li>
-<li>hexo<br>hexo位于进化的最顶端，是刚刚流行不久的东东，用了它，就意味着你是很潮的。<br>多说 呢，是个评论模块，利用它，hexo就可以接受评论了。至于为什么用它，就不细讲了，统计之都的评论也是用的它。<br>google analysis 在hexo上配置了它，你可以知道访问你的站点的都来自己哪里等站点信息<br>markdown 呢，让你的思路像流水一样转化为文字，写作的时候专注于写作<br>sublime 呢，经多人验证，一款很好用的文本编辑器。支持markdown语法高亮。<br>经亲测，视频、图片、链接无障碍。还在愁学校批不批名额给你建mooc?还在愁没钱怎么教改？还在YY最快把你的材料传达给学生的有效方法？<br>行动起来，hexo吧，这是个想怎么MOOOC就怎么MOOC的环境，没有什么5到25分钟的限制，没有什么名额资源限制。你的电脑和互联网，足矣！<br>另外，本环境据内容的不同，也可以拓展为专用站点，如<br>公共微博微信平台小编可以用，微博微信发送两不误<br>学科馆员可以用，嗯，据我的个人体验，比libguide好用<br>任课老师可以用，当主页，绝对高大上。你用了，就意味着，你是github的会员，就意味着你还可以建N个库，存各种文档、源码、与别人分享等。。。<br>辅导员、管理工作者也可以用啦，由它带来的好处，谁用谁最清楚</li>
+<li>hexo<br>hexo位于进化的最顶端，是刚刚流行不久的东东，用了它，就意味着你是很潮的。<br>多说 呢，是个评论模块，利用它，hexo就可以接受评论了。至于为什么用它，就不细讲了，统计之都的评论也是用的它。<br>google analysis 在hexo上配置了它，你可以知道访问你的站点的都来自己哪里等站点信息<br>markdown 呢，让你的思路像流水一样转化为文字，写作的时候专注于写作<br>sublime 呢，经多人验证，一款很好用的文本编辑器。支持markdown语法高亮。</li>
 </ul>
+<p>经亲测，视频、图片、链接无障碍。还在愁学校批不批名额给你建mooc?还在愁没钱怎么教改？还在YY最快把你的材料传达给学生的有效方法？<br>行动起来，hexo吧，这是个想怎么MOOOC就怎么MOOC的环境，没有什么5到25分钟的限制，没有什么名额资源限制。你的电脑和互联网，足矣！<br>另外，本环境据内容的不同，也可以拓展为专用站点，如<br>公共微博微信平台小编可以用，微博微信发送两不误<br>学科馆员可以用，嗯，据我的个人体验，比libguide好用<br>任课老师可以用，当主页，绝对高大上。你用了，就意味着，你是github的会员，就意味着你还可以建N个库，存各种文档、源码、与别人分享等。。。<br>辅导员、管理工作者也可以用啦，由它带来的好处，谁用谁最清楚</p>
 ]]></content>
     
     
