@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-26T10:06:15.247Z</updated>
+  <updated>2014-05-27T02:22:16.484Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -15,11 +15,39 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[吴喜之教授列举的常见统计软件]]></title>
+    <link href="http://chly.github.io/2014/05/27/%E5%90%B4%E5%96%9C%E4%B9%8B%E6%95%99%E6%8E%88%E5%88%97%E4%B8%BE%E7%9A%84%E5%B8%B8%E8%A7%81%E7%BB%9F%E8%AE%A1%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://chly.github.io/2014/05/27/吴喜之教授列举的常见统计软件/</id>
+    <published>2014-05-27T01:56:26.000Z</published>
+    <updated>2014-05-27T02:22:04.000Z</updated>
+    <content type="html"><![CDATA[<p>一直纠结于该用哪个软件处理和分析数据的孩子们注意了，中国人民大学吴喜之教授在他的统计学课件里列举了常见的统计软件简介。首先，我大概简明概括下。供大家参考</p>
+<ul>
+<li>Excel 大众型，用office的，基本都装了这个，office2013还特地增加了一些统计和数据可视化的功能。使用的人多，遇到问题求助方便。</li>
+<li>SPSS 业余型，非统计工作者的得力助手。操作易，功能全。浙江大学的师生可到图书馆主页下载，有20个并发。</li>
+<li>SAS 高配型，功能非常齐全，但入门较难，价格贵，一般专门的公司用。</li>
+<li>S-plus 专家型，这是统计学家喜欢用的软件，能编程，但是收费的。</li>
+<li>R 极客型 开源免费可编程。国外统计学专业一般都要求学生会用这个。更新快，功能全，国内在<a href="http://cos.name/" target="_blank">统计之都</a>等组织和机构的推动下，社区也很活跃。</li>
+</ul>
+<p>下面，摘录吴老师《统计学——从数据到结论》课件中的软件列表：<br>SPSS：这是一个很受欢迎的统计软件；它容易操作，输出漂亮，功能齐全，价格合理。对于非统计工作者是很好的选择。<br>Excel：它严格说来并不是统计软件，但作为数据表格软件，必然有一定统计计算功能。而且凡是有Microsoft Office的计算机，基本上都装有Excel。但要注意，有时在装Office时没有装数据分析的功能，那就必须装了才行。当然，画图功能是都具备的。对于简单分析，Excel还算方便，但随着问题的深入，Excel就不那么“傻瓜”，需要使用函数，甚至根本没有相应的方法了。多数专门一些的统计推断问题还需要其他专门的统计软件来处理。<br>SAS：这是功能非常齐全的软件；尽管价格不菲，许多公司还是因为其功能众多和某些美国政府机构认可而使用。尽管现在已经尽量“傻瓜化”，仍然需要一定的训练才可以进入。对于基本统计课程则不那么方便。<br>S-plus：这是统计学家喜爱的软件。不仅由于其功能齐全，而且由于其强大的编程功能，使得研究人员可以编制自己的程序来实现自己的理论和方法。它也在进行“傻瓜化”以争取顾客。但仍然以编程方便为顾客所青睐。<br>R软件：这是一个免费的，由志愿者管理的软件。其编程语言与S-plus所基于的S语言一样，很方便。还有不断加入的各个方向统计学家编写的统计软件包。同时从网上可以不断更新和增加有关的软件包和程序。这是发展最快的软件，受到世界上统计师生的欢迎。是用户量增加最快的统计软件。对于一般非统计工作者来说，主要问题是它没有“傻瓜化”。<br>Minitab：这个软件是很方便的功能强大而又齐全的软件，也已经“傻瓜化”，在我国用的不如SPSS与SAS那么普遍。<br>Statistica：也是功能强大而齐全的“傻瓜化”的软件，在我国用的也不如SAS与SPSS那么普遍。<br>Eviews：这是一个主要处理回归和时间序列的软件。<br>GAUSS：这是一个很好用的统计软件，许多搞经济的喜欢它。主要也是编程功能强大。目前在我国使用的人不多。<br>FORTRAN：这是应用于各个领域的历史很长的非常优秀的编程软件，功能强大，也有一定的统计软件包。计算速度比这里介绍的都快得多。但需要编程和编译。操作不那么容易。<br>MATLAB：这也是应用于各个领域的以编程为主的软件，在工程上应用广泛。编程类似于S和R。但是统计方法不多。</p>
+]]></content>
+    
+    
+      <category term="数据分析" scheme="http://chly.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+      <category term="R" scheme="http://chly.github.io/tags/R/"/>
+    
+      <category term="统计学" scheme="http://chly.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/"/>
+    
+      <category term="教育数据" scheme="http://chly.github.io/categories/%E6%95%99%E8%82%B2%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[第七届中国R语言会议归来]]></title>
     <link href="http://chly.github.io/2014/05/26/%E7%AC%AC%E4%B8%83%E5%B1%8A%E4%B8%AD%E5%9B%BDr%E8%AF%AD%E8%A8%80%E4%BC%9A%E8%AE%AE%E5%BD%92%E6%9D%A5/"/>
     <id>http://chly.github.io/2014/05/26/第七届中国r语言会议归来/</id>
     <published>2014-05-26T01:02:13.000Z</published>
-    <updated>2014-05-26T08:18:01.000Z</updated>
+    <updated>2014-05-27T01:54:38.000Z</updated>
     <content type="html"><![CDATA[<p>刚刚热起来的教育统计学并不是个新兴的领域，是自从教育产生后就有的，只不过原来很少引人注意。无论是做数字图书馆建设，还是做教学信息化支撑，必须妥善处理由此产生或与此相关的数据。围绕数据的采、存、管、捡、算、用，有大量知识和技能要掌握。从业务的实现上出发，什么最能很快出成效？R，所以R是对付好数据的最好切入点。<br>5月24-25日，人大和北大联合统计之都在北京组办了<a href="http://r-conference.org/" target="_blank">“第七届R语言会议”</a>。很幸运，去听了报告。收获颇丰。下面摘录几个关键字</p>
 <h2 id="吴喜之">吴喜之</h2>
 <p>珍视生命<br><img src="http://ssstudy.com/CSSN_Study_Net/videos/videoname20111129145220.jpg" alt="吴喜之老师"></p>
@@ -32,7 +60,7 @@
 <h2 id="林荟">林荟</h2>
 <p>数据分析最重要的是沟通，得让别人意识到并且认同你做这些工作的价值。</p>
 <h2 id="王汉生">王汉生</h2>
-<p>所有的模型都是做的，但是有一些是有用的<br>报告中讲了针对Sina Weibo标签的一些有意思的分析<br><img src="http://crm.gsm.pku.edu.cn/linkfiledir/jsww/TZ_PUBLISH/20131212_0261/0261_PHOTO.GIF" alt="王汉生老师"></p>
+<p>所有的模型都是错的，但是有一些是有用的<br>报告中讲了针对Sina Weibo标签的一些有意思的分析<br><img src="http://crm.gsm.pku.edu.cn/linkfiledir/jsww/TZ_PUBLISH/20131212_0261/0261_PHOTO.GIF" alt="王汉生老师"></p>
 <h2 id="李舰">李舰</h2>
 <p>讲了如何把R的强大揉进Office中，让Office飞。</p>
 <h2 id="欧阳鹤">欧阳鹤</h2>
@@ -46,6 +74,8 @@
       <category term="数据分析" scheme="http://chly.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
       <category term="R" scheme="http://chly.github.io/tags/R/"/>
+    
+      <category term="统计学" scheme="http://chly.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/"/>
     
       <category term="教育数据" scheme="http://chly.github.io/categories/%E6%95%99%E8%82%B2%E6%95%B0%E6%8D%AE/"/>
     
@@ -183,22 +213,6 @@
   
   <entry>
     <title><![CDATA[中国MOOC交流会]]></title>
-    <link href="http://chly.github.io/2014/05/17/%E4%B8%AD%E5%9B%BDmooc%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
-    <id>http://chly.github.io/2014/05/17/中国mooc交流会/</id>
-    <published>2014-05-17T12:43:32.000Z</published>
-    <updated>2014-05-19T13:14:36.000Z</updated>
-    <content type="html"><![CDATA[<p>2014年5月17日，在浙大本科生院的邀请下，中国MOOC平台相关人员为浙大老师介绍中国MOOC平台<br>会上，陆国栋教授做了《信息技术环境下教学改革的总体认识：133346模式》<a href="/adjunct/（杭州）信息技术环境下教学改革的总体认识：133346模式.pdf">查看报告</a>分享了他对高校教改的深入认识<br>中国科技大学罗昭锋做了《MOOC盛行的时代逻辑及实践探索》<a href="/adjunct/（杭州）MOOC盛行的时代逻辑及实践探索.pdf">查看报告</a>分享了他在网易云课堂，TopU等平台上课的体验、认识、总结<br>彭崇胜博士做了《慕课案例分享-中医药与中华传统文化》<a href="/adjunct/（杭州）慕课案例分享-中医药与中华传统文化.pdf">查看报告</a>分享了他在Coursera上做MOOC课程的经验)<br>2014年5月15日，在北京，清华大学于歆杰，做了《开设和实施MOOC过程中的一些体会》<a href="/adjunct/开设和实施MOOC过程中的一些体会（5-15）.pdf）分享了他在edx平台，学堂在线平台做MOOC课程电路原理的经验和感受。北京大学MOOC培训项目负责人王胜清副教授做了《面向MOOC课程建设与应用的教育技术支持》[查看报告](/adjunct/面向MOOC课程建设与应用的教育技术支持v2.pdf">查看报告</a></p>
-]]></content>
-    
-    
-      <category term="MOOC交流" scheme="http://chly.github.io/tags/MOOC%E4%BA%A4%E6%B5%81/"/>
-    
-      <category term="教学改革" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[中国MOOC交流会]]></title>
     <link href="http://chly.github.io/2014/05/17/%E4%B8%AD%E5%9B%BDmooc%E6%B5%99%E5%A4%A7%E6%9D%AD%E5%B7%9E%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
     <id>http://chly.github.io/2014/05/17/中国mooc浙大杭州交流会/</id>
     <published>2014-05-17T12:43:32.000Z</published>
@@ -210,6 +224,22 @@
       <category term="MOOC交流" scheme="http://chly.github.io/tags/MOOC%E4%BA%A4%E6%B5%81/"/>
     
       <category term="会议报告" scheme="http://chly.github.io/tags/%E4%BC%9A%E8%AE%AE%E6%8A%A5%E5%91%8A/"/>
+    
+      <category term="教学改革" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[中国MOOC交流会]]></title>
+    <link href="http://chly.github.io/2014/05/17/%E4%B8%AD%E5%9B%BDmooc%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
+    <id>http://chly.github.io/2014/05/17/中国mooc交流会/</id>
+    <published>2014-05-17T12:43:32.000Z</published>
+    <updated>2014-05-19T13:14:36.000Z</updated>
+    <content type="html"><![CDATA[<p>2014年5月17日，在浙大本科生院的邀请下，中国MOOC平台相关人员为浙大老师介绍中国MOOC平台<br>会上，陆国栋教授做了《信息技术环境下教学改革的总体认识：133346模式》<a href="/adjunct/（杭州）信息技术环境下教学改革的总体认识：133346模式.pdf">查看报告</a>分享了他对高校教改的深入认识<br>中国科技大学罗昭锋做了《MOOC盛行的时代逻辑及实践探索》<a href="/adjunct/（杭州）MOOC盛行的时代逻辑及实践探索.pdf">查看报告</a>分享了他在网易云课堂，TopU等平台上课的体验、认识、总结<br>彭崇胜博士做了《慕课案例分享-中医药与中华传统文化》<a href="/adjunct/（杭州）慕课案例分享-中医药与中华传统文化.pdf">查看报告</a>分享了他在Coursera上做MOOC课程的经验)<br>2014年5月15日，在北京，清华大学于歆杰，做了《开设和实施MOOC过程中的一些体会》<a href="/adjunct/开设和实施MOOC过程中的一些体会（5-15）.pdf）分享了他在edx平台，学堂在线平台做MOOC课程电路原理的经验和感受。北京大学MOOC培训项目负责人王胜清副教授做了《面向MOOC课程建设与应用的教育技术支持》[查看报告](/adjunct/面向MOOC课程建设与应用的教育技术支持v2.pdf">查看报告</a></p>
+]]></content>
+    
+    
+      <category term="MOOC交流" scheme="http://chly.github.io/tags/MOOC%E4%BA%A4%E6%B5%81/"/>
     
       <category term="教学改革" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9/"/>
     
@@ -253,8 +283,8 @@
     <link href="http://chly.github.io/2014/05/15/%E5%8E%9F%E5%9E%8B%E7%B3%BB%E7%BB%9F%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6mean%E7%AE%80%E4%BB%8B/"/>
     <id>http://chly.github.io/2014/05/15/原型系统快速开发框架mean简介/</id>
     <published>2014-05-15T09:55:53.000Z</published>
-    <updated>2014-05-19T01:07:27.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="MMEAN是什么？">M<a href="http://www.mean.io" target="_blank">MEAN</a>是什么？</h2>
+    <updated>2014-05-26T15:21:38.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="MEAN是什么？"><a href="http://www.mean.io" target="_blank">MEAN</a>是什么？</h2>
 <h3 id="mongoDB">mongoDB</h3>
 <p>NoSQL数据库典型代表，兼顾敏捷和可扩展性</p>
 <h3 id="express">express</h3>
@@ -394,16 +424,17 @@
     <link href="http://chly.github.io/2014/04/12/%E7%90%86%E6%83%B3%E7%9A%84%E4%B8%AA%E4%BA%BAmooc%E7%8E%AF%E5%A2%83/"/>
     <id>http://chly.github.io/2014/04/12/理想的个人mooc环境/</id>
     <published>2014-04-12T09:34:54.000Z</published>
-    <updated>2014-05-26T10:01:20.000Z</updated>
+    <updated>2014-05-26T12:06:10.000Z</updated>
     <content type="html"><![CDATA[<p>几经寻觅，终于搭建了理想中的个人MOOC环境<br>能被公网访问，可以发文章，文章能分类，能标签管理，可以放视频，可以放图片，与SNS无缝对接，能接受评论，能查看访客信息。啊，这实在是太好了！并且，用起来很方便！！还是免费的！！！<br>这种尤物到底是什么呢？<br>就是本站，由windows+git+Github+Nodejs+hexo+多说+google Analysis+Markdown+sublime打造<br>Windows 呢，嘿嘿，我不说你也懂。<br>git 呢，就是现在最流行的版本控制工具。它的资料实在太多，用它的人也实在太多，不信问GOOGLE，这里略过不讲哈<br>Gighub 呢，程序员们最喜欢用的社交站点，关键时可以挂站点，此站就挂在github上哦。很多大牛栖息与此哦，详见：<a href="http://www.yangzhiping.com/tech/github.html" target="_blank">如何高效利用GitHub</a>。<br>Nodejs 呢，不得不说，它是当今时代快速开发的利器。还不知道？问百度去。<br>hexo 呢，据说最初由台湾的一个大学生创造的，现在很多经常写博客的都从原来的阵地转移到这里来了。我追查了下常见的博客使用的环境的进化路线，大致是这样的：</p>
 <ul>
 <li>使用公共平台，如新浪、网易、科学网等</li>
 <li>建个完全由自己掌控的小站</li>
 <li>wordpress 现在很多名博还在用这个平台</li>
 <li>jekyll/octopress</li>
-<li>hexo<br>hexo位于进化的最顶端，是刚刚流行不久的东东，用了它，就意味着你是很潮的。<br>多说 呢，是个评论模块，利用它，hexo就可以接受评论了。至于为什么用它，就不细讲了，统计之都的评论也是用的它。<br>google analysis 在hexo上配置了它，你可以知道访问你的站点的都来自己哪里等站点信息<br>markdown 呢，让你的思路像流水一样转化为文字，写作的时候专注于写作<br>sublime 呢，经多人验证，一款很好用的文本编辑器。支持markdown语法高亮。</li>
+<li>hexo</li>
 </ul>
-<p>经亲测，视频、图片、链接无障碍。还在愁学校批不批名额给你建mooc?还在愁没钱怎么教改？还在YY最快把你的材料传达给学生的有效方法？<br>行动起来，hexo吧，这是个想怎么MOOOC就怎么MOOC的环境，没有什么5到25分钟的限制，没有什么名额资源限制。你的电脑和互联网，足矣！<br>另外，本环境据内容的不同，也可以拓展为专用站点，如<br>公共微博微信平台小编可以用，微博微信发送两不误<br>学科馆员可以用，嗯，据我的个人体验，比libguide好用<br>任课老师可以用，当主页，绝对高大上。你用了，就意味着，你是github的会员，就意味着你还可以建N个库，存各种文档、源码、与别人分享等。。。<br>辅导员、管理工作者也可以用啦，由它带来的好处，谁用谁最清楚</p>
+<p>hexo位于进化的最顶端，是刚刚流行不久的东东，用了它，就意味着你是很潮的。<br>多说 呢，是个评论模块，利用它，hexo就可以接受评论了。至于为什么用它，就不细讲了，统计之都的评论也是用的它。<br>google analysis 呢， 在hexo上配置了它，你可以知道访问你的站点的都来自己哪里等站点信息<br>markdown 呢，让你的思路像流水一样转化为文字，写作的时候专注于写作<br>sublime 呢，经多人验证，一款很好用的文本编辑器。支持markdown语法高亮。</p>
+<p>经亲测，视频、图片、链接无障碍。还在愁学校批不批名额给你建mooc?还在愁没钱怎么教改？还在YY最快把你的材料传达给学生的有效方法？<br>行动起来，hexo吧，这是个想怎么MOOOC就怎么MOOC的环境，没有什么5到25分钟的限制，没有什么名额资源限制。你的电脑和互联网，足矣！<br>另外，本环境据内容的不同，也可以拓展为专用站点，如<br>公共微博微信平台小编可以用，微博微信发送两不误<br>学科馆员可以用，嗯，据我的个人体验，比libguide好用<br>任课老师可以用，当主页，绝对高大上。你用了，就意味着，你是github的会员，就意味着你还可以建N个库，存各种文档、源码、与别人分享等。。。<br>辅导员、管理工作者也可以用啦，由它带来的好处，谁用谁最清楚<br>唉啊，不局限于学校里的工作人员啦，文艺青年、技术青年、科学青年都可以用啊，各有各的玩法，至于怎么玩，网上很多介绍啦<br>最后，祝大家都能用出自己的范儿！</p>
 ]]></content>
     
     
@@ -462,17 +493,6 @@
       <category term="系统运维" scheme="http://chly.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
     
       <category term="教学管理系统" scheme="http://chly.github.io/categories/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[认识git]]></title>
-    <link href="http://chly.github.io/2013/05/15/%E8%AE%A4%E8%AF%86git/"/>
-    <id>http://chly.github.io/2013/05/15/认识git/</id>
-    <published>2013-05-15T09:37:24.000Z</published>
-    <updated>2014-05-17T09:55:38.000Z</updated>
-    <content type="html"><![CDATA[]]></content>
-    
     
   </entry>
   
