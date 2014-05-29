@@ -4,26 +4,17 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>使用非关系型数据库MongoDB管理MOOCs课程资源的好处 | Edu_Tracker</title>
+    <title>有助于教与学的app、软件等 | Edu_Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="chly">
     
-    <meta name="description" content="MOOCs课程资源特点
+    <meta name="description" content="前一段时间，我向大家介绍了理想的个人MOOC环境用到一系列的开源工具和资源，本文作为延续，介绍一些能够极大丰富和助力你校园生活的东西。当然了，作为图书与信息中心的工作人员，首推中心专为我校师生定制的两个应用：
 
-特征不一
-大小不一
-规格不一
-访问量大
-资源总量大
+我的浙大
+浙江大学移动图书馆
 
-MongoDB特点
-
-键值存储
-对象存储
-支持二进制数据及大型对象
-查询性能好
-高伸缩场景所以OpenEdx选择MongDB存储课程资源">
+本文假定的阅读对象是:渴望借助技术手段提高教与学效率的人">
     
     
     
@@ -80,15 +71,15 @@ MongoDB特点
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/05/15/使用非关系型数据库mongodb管理课程资源的好处/" title="使用非关系型数据库MongoDB管理MOOCs课程资源的好处" itemprop="url">使用非关系型数据库MongoDB管理MOOCs课程资源的好处</a>
+      <a href="/2014/05/29/有助于教与学的app/" title="有助于教与学的app、软件等" itemprop="url">有助于教与学的app、软件等</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://chly.github.io" title="chly">chly</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-05-15T09:52:43.000Z" itemprop="datePublished">5月 15 2014</time>
-    更新日期:<time datetime="2014-05-19T09:55:11.000Z" itemprop="dateModified">5月 19 2014</time>
+    <time datetime="2014-05-29T06:50:50.000Z" itemprop="datePublished">5月 29 2014</time>
+    更新日期:<time datetime="2014-05-29T09:28:18.000Z" itemprop="dateModified">5月 29 2014</time>
     
   </p>
 </header>
@@ -97,24 +88,58 @@ MongoDB特点
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MOOCs课程资源特点"><span class="toc-number">1.</span> <span class="toc-text">MOOCs课程资源特点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MongoDB特点"><span class="toc-number">2.</span> <span class="toc-text">MongoDB特点</span></a></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#云笔记类"><span class="toc-number">1.</span> <span class="toc-text">云笔记类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文件管理类"><span class="toc-number">2.</span> <span class="toc-text">文件管理类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文献管理类_维基百科上有很详细的比较，此序列来自科学网对文献管理软件的调查结果"><span class="toc-number">3.</span> <span class="toc-text">科学网对文献管理软件的调查结果</a></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#科学计算类"><span class="toc-number">4.</span> <span class="toc-text">科学计算类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#版本管理"><span class="toc-number">5.</span> <span class="toc-text">版本管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-number">6.</span> <span class="toc-text">博客平台</span></a></li></ol>
 		</div>
 		
-		<h2 id="MOOCs课程资源特点">MOOCs课程资源特点</h2>
+		<p>前一段时间，我向大家介绍了<a href="http://chly.github.io/2014/04/12/%E7%90%86%E6%83%B3%E7%9A%84%E4%B8%AA%E4%BA%BAmooc%E7%8E%AF%E5%A2%83/">理想的个人MOOC环境</a>用到一系列的开源工具和资源，本文作为延续，介绍一些能够极大丰富和助力你校园生活的东西。当然了，作为图书与信息中心的工作人员，首推中心专为我校师生定制的两个应用：</p>
 <ul>
-<li>特征不一</li>
-<li>大小不一</li>
-<li>规格不一</li>
-<li>访问量大</li>
-<li>资源总量大</li>
+<li>我的浙大</li>
+<li>浙江大学移动图书馆</li>
 </ul>
-<h2 id="MongoDB特点">MongoDB特点</h2>
+<p>本文假定的阅读对象是:渴望借助技术手段提高教与学效率的人。<br>知识管理是一生的事，当你把平日对你有触发的所闻所见所思都记录在册，就相当于有了记忆力超群的大脑。如果这个册子，能够随时随地查看、很快的搜索，那么在这方面你比竺爷爷要幸福得多。大家都知道，本页左下角的竺爷爷因《竺可桢笔记》闻名于你我的记忆里。很荣幸，我们生活在IT兴盛的时代。下面推荐几类好用的知识管理软件</p>
+<h2 id="云笔记类">云笔记类</h2>
 <ul>
-<li>键值存储</li>
-<li>对象存储</li>
-<li>支持二进制数据及大型对象</li>
-<li>查询性能好</li>
-<li>高伸缩场景<br>所以OpenEdx选择MongDB存储课程资源</li>
+<li>Wiz  <a href="http://www.zhihu.com/question/20784991" target="_blank">知乎上有专门比较的贴子</a>，几乎都说笔记类，为知最棒。很多人的使用路线是从onenote到印象笔记再到Wiz。所以这里我把它放在第一位。还有个好处，它是国内的，没有时不时被墙的风险。天然支持IE核浏览器的网页保存</li>
+<li><a href="http://www.yinxiang.com/" target="_blank">印象笔记</a> 我现在在用。个人感觉很好用。印象剪藏功能真的很好很强大。与chrome的印象笔记插件配合使用效果更佳。缺点是占用空间有点大。电脑端80多M。</li>
+<li><a href="https://note.youdao.com/" target="_blank">有道笔记</a> 你可以不用切换软件发微博。有成熟且顺手的提醒功能</li>
+<li><a href="http://office.microsoft.com/zh-cn/onenote/" target="_blank">onenote</a> office里的一个套件。属于笔记类应用里前辈级的，很意识到电子笔记的人，最初都是用它。</li>
+<li><a href="http://as.baidu.com/a/item?docid=6475843&amp;pre=web_am_software&amp;pos=software_1010_1&amp;f=software_1010_1" target="_blank">生活手记</a> 它的神奇之处在于，你说的话，就直接转成文字记录下来了，如果你普通话标准的话，识别率还是很高的。如果它早一年出来，当时还在做会议记录的我会省出多少时间！这是百度最新推出的一款轻巧到应用，才安卓版3.5M。我看到的最久远的评论发表于2014年5月14日。</li>
+</ul>
+<h2 id="文件管理类">文件管理类</h2>
+<ul>
+<li>Total Commander 超强文件管理软件</li>
+<li>Everything 速度很快的文件名搜索软件，比windows自带的搜索要好用</li>
+<li>Auto Hotkey 自定键盘快捷键、宏处理</li>
+</ul>
+<h2 id="文献管理类_维基百科上有很详细的比较，此序列来自科学网对文献管理软件的调查结果">文献管理类 维基百科上有很详细的<a href="http://zh.wikipedia.org/zh/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E6%AF%94%E8%BE%83" target="_blank">比较</a>，此序列来自<a href="http://bbs.sciencenet.cn/thread-1167040-1-1.html" target="_blank">科学网对文献管理软件的调查结果</a></h2>
+<ul>
+<li>Endnote    </li>
+<li>Noteexpress 这个有专门的我校图书馆定制版，您可以<a href="http://www.inoteexpress.com/support/noncgi/downloads/NoteExpress_Vol_ZheDa_2.9.8.5668_zh.exe" target="_blank">直接下载</a></li>
+<li>e-learning 知网推出的，可以无缝整合知网资源。PDF显示效果有待提升</li>
+<li>Mendeley 有SNS特性</li>
+<li><a href="http://www.notefirst.com/download/" target="_blank">Notefirst</a> </li>
+<li>Zotero</li>
+<li>Refwork 在线科研协作管理工具</li>
+<li>Biblioscape</li>
+<li><a href="https://www.readcube.com/" target="_blank">ReadCube</a> 目前是比较小众的，以致于科学网调查时都没把它列进去。整合了Google Scholar与Pubmed。详参《<a href="http://blog.sciencenet.cn/blog-871916-663617.html" target="_blank">文献管理软件的新里程碑</a>》</li>
+</ul>
+<h2 id="科学计算类">科学计算类</h2>
+<ul>
+<li>MATLAB 应用于各个领域的以编程为主的软件，在工程上应用广泛。</li>
+<li>Excel 大众型，用office的基本都装了它，office2013还特地增加了一些统计和数据可视化的功能。使用的人多，遇到问题求助方便。功能局限在A：表现绝对值；B：表现比例；C：表示二维平面上的变量关系。不过，这也基本上能满足通用办公需求。</li>
+<li>R 极客型 开源免费可编程。国外统计学专业一般都要求学生会用这个。更新快，功能全，国内在<a href="http://cos.name/" target="_blank">统计之都</a>等组织和机构的推动下，社区也很活跃</li>
+<li>Python 自由型 </li>
+<li>SPSS 业余型，非统计工作者的得力助手。操作易，功能全。浙江大学的师生可到图书馆主页下载，有20个并发。</li>
+<li>SAS 高配型，功能非常齐全，但入门较难，价格贵，一般专门的公司用。</li>
+<li>S-plus 专家型，这是统计学家喜欢用的软件，能编程，但是收费的。</li>
+</ul>
+<h2 id="版本管理">版本管理</h2>
+<ul>
+<li>git</li>
+</ul>
+<h2 id="博客平台">博客平台</h2>
+<ul>
+<li>hexo</li>
 </ul>
   
 	</div>
@@ -122,7 +147,7 @@ MongoDB特点
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/OpenEdx/">OpenEdx</a><a href="/tags/MongoDB/">MongoDB</a>
+  <span></span> <a href="/tags/app/">app</a><a href="/tags/应用软件/">应用软件</a>
   </div>
 
 
@@ -135,7 +160,7 @@ MongoDB特点
 
 <div class="article-share" id="share">
 
-  <div data-url="http://chly.github.io/2014/05/15/使用非关系型数据库mongodb管理课程资源的好处/" data-title="使用非关系型数据库MongoDB管理MOOCs课程资源的好处 | Edu_Tracker" data-tsina="1094183764## e.g. 1790238327  Your weibo ID,It will be used in share button." class="share clearfix">
+  <div data-url="http://chly.github.io/2014/05/29/有助于教与学的app/" data-title="有助于教与学的app、软件等 | Edu_Tracker" data-tsina="1094183764## e.g. 1790238327  Your weibo ID,It will be used in share button." class="share clearfix">
   </div>
 
 </div>
@@ -144,19 +169,11 @@ MongoDB特点
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2014/05/15/原型系统快速开发框架mean简介/" title="原型系统快速开发框架MEAN简介">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  原型系统快速开发框架MEAN简介</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2014/05/15/supervisor揭开openedx多服务管理的面纱/"  title="Supervisor揭开OpenEdx多服务管理的面纱">
+<a href="/2014/05/27/吴喜之教授列举的常见统计软件/"  title="吴喜之教授列举的常见统计软件">
  <strong>NEXT:</strong><br/> 
- <span>Supervisor揭开OpenEdx多服务管理的面纱
+ <span>吴喜之教授列举的常见统计软件
 </span>
 </a>
 </div>
@@ -173,7 +190,7 @@ MongoDB特点
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MOOCs课程资源特点"><span class="toc-number">1.</span> <span class="toc-text">MOOCs课程资源特点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MongoDB特点"><span class="toc-number">2.</span> <span class="toc-text">MongoDB特点</span></a></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#云笔记类"><span class="toc-number">1.</span> <span class="toc-text">云笔记类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文件管理类"><span class="toc-number">2.</span> <span class="toc-text">文件管理类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文献管理类_维基百科上有很详细的比较，此序列来自科学网对文献管理软件的调查结果"><span class="toc-number">3.</span> <span class="toc-text">科学网对文献管理软件的调查结果</a></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#科学计算类"><span class="toc-number">4.</span> <span class="toc-text">科学计算类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#版本管理"><span class="toc-number">5.</span> <span class="toc-text">版本管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-number">6.</span> <span class="toc-text">博客平台</span></a></li></ol>
   </div>
 
 <div id="asidepart">
