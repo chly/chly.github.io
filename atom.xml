@@ -4,7 +4,7 @@
   <subtitle><![CDATA[非官方浙江大学在线教育研究]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chly.github.io/"/>
-  <updated>2014-05-29T09:31:15.280Z</updated>
+  <updated>2014-05-29T09:35:36.368Z</updated>
   <id>http://chly.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://chly.github.io/2014/05/29/%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%95%99%E4%B8%8E%E5%AD%A6%E7%9A%84app/"/>
     <id>http://chly.github.io/2014/05/29/有助于教与学的app/</id>
     <published>2014-05-29T06:50:50.000Z</published>
-    <updated>2014-05-29T09:30:39.000Z</updated>
+    <updated>2014-05-29T09:35:26.000Z</updated>
     <content type="html"><![CDATA[<p>前一段时间，我向大家介绍了<a href="http://chly.github.io/2014/04/12/%E7%90%86%E6%83%B3%E7%9A%84%E4%B8%AA%E4%BA%BAmooc%E7%8E%AF%E5%A2%83/">理想的个人MOOC环境</a>用到一系列的开源工具和资源，本文作为延续，介绍一些能够极大丰富和助力你校园生活的东西。当然了，作为图书与信息中心的工作人员，首推中心专为我校师生定制的两个应用：</p>
 <ul>
 <li>我的浙大</li>
@@ -28,7 +28,7 @@
 <p>本文假定的阅读对象是:渴望借助技术手段提高教与学效率的人。<br>知识管理是一生的事，当你把平日对你有触发的所闻所见所思都记录在册，就相当于有了记忆力超群的大脑。如果这个册子，能够随时随地查看、很快的搜索，那么在这方面你比竺爷爷要幸福得多。大家都知道，本页左下角的竺爷爷因《竺可桢笔记》闻名于你我的记忆里。很荣幸，我们生活在IT兴盛的时代。下面推荐几类好用的知识管理软件</p>
 <h2 id="云笔记类">云笔记类</h2>
 <ul>
-<li>Wiz  <a href="http://www.zhihu.com/question/20784991" target="_blank">知乎上有专门比较的贴子</a>，几乎都说笔记类，为知最棒。很多人的使用路线是从onenote到印象笔记再到Wiz。所以这里我把它放在第一位。还有个好处，它是国内的，没有时不时被墙的风险。天然支持IE核浏览器的网页保存</li>
+<li><a href="http://www.wiz.cn/" target="_blank">为知笔记Wiz</a>  <a href="http://www.zhihu.com/question/20784991" target="_blank">知乎上有专门比较的贴子</a>，几乎都说笔记类，为知最棒。很多人的使用路线是从onenote到印象笔记再到Wiz。所以这里我把它放在第一位。还有个好处，它是国内的，没有时不时被墙的风险。天然支持IE核浏览器的网页保存</li>
 <li><a href="http://www.yinxiang.com/" target="_blank">印象笔记</a> 我现在在用。个人感觉很好用。印象剪藏功能真的很好很强大。与chrome的印象笔记插件配合使用效果更佳。缺点是占用空间有点大。电脑端80多M。</li>
 <li><a href="https://note.youdao.com/" target="_blank">有道笔记</a> 你可以不用切换软件发微博。有成熟且顺手的提醒功能</li>
 <li><a href="http://office.microsoft.com/zh-cn/onenote/" target="_blank">onenote</a> office里的一个套件。属于笔记类应用里前辈级的，很意识到电子笔记的人，最初都是用它。</li>
