@@ -4,20 +4,14 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>原型系统快速开发框架MEAN简介 | Edu_Tracker</title>
+    <title>OpenEdx用的python第三方包介绍 | Edu_Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="chly">
     
-    <meta name="description" content="MEAN是什么？
-mongoDB
-NoSQL数据库典型代表，兼顾敏捷和可扩展性
-express
-Express是基于node.js的一个很小又很灵活的网站应用框架
-ANGULARJS
-SngularJS允许HTML扩展，是快速开发的利器
-Node.js
-Node.js是Chrome内嵌的JS运行环境">
+    <meta name="description" content="从开始接解OpenEdx起，就想好好整理它用到的第三方包。花了一个上午时间，先简要列下来。
+开发、框架等
+beautifulsoup4==4.1.3 #是用Python写的一个HTML/XML的解析器，它可以很好的处理不规范标记并生成剖析树(parse tree)。 它提供简单又常用的导航（navi">
     
     
     
@@ -74,15 +68,15 @@ Node.js是Chrome内嵌的JS运行环境">
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/05/15/原型系统快速开发框架mean简介/" title="原型系统快速开发框架MEAN简介" itemprop="url">原型系统快速开发框架MEAN简介</a>
+      <a href="/2014/06/16/openedx用的python第三方包介绍/" title="OpenEdx用的python第三方包介绍" itemprop="url">OpenEdx用的python第三方包介绍</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://chly.github.io" title="chly">chly</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-05-15T09:55:53.000Z" itemprop="datePublished">5月 15 2014</time>
-    更新日期:<time datetime="2014-05-26T15:21:38.000Z" itemprop="dateModified">5月 26 2014</time>
+    <time datetime="2014-06-16T03:00:44.000Z" itemprop="datePublished">6月 16 2014</time>
+    更新日期:<time datetime="2014-06-16T03:14:14.000Z" itemprop="dateModified">6月 16 2014</time>
     
   </p>
 </header>
@@ -91,40 +85,46 @@ Node.js是Chrome内嵌的JS运行环境">
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MEAN是什么？"><span class="toc-number">1.</span> <span class="toc-text">是什么？</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#mongoDB"><span class="toc-number">1.1.</span> <span class="toc-text">mongoDB</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#express"><span class="toc-number">1.2.</span> <span class="toc-text">express</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ANGULARJS"><span class="toc-number">1.3.</span> <span class="toc-text">ANGULARJS</span></a></li><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Node-js"><span class="toc-number">1.3.1.</span> <span class="toc-text">Node.js</span></a></li></ol></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#MEAN可以干什么？"><span class="toc-number">2.</span> <span class="toc-text">MEAN可以干什么？</span></a></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#开发、框架等"><span class="toc-number">1.</span> <span class="toc-text">开发、框架等</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_debugging"><span class="toc-number">2.</span> <span class="toc-text">Used for debugging</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_development_operation"><span class="toc-number">3.</span> <span class="toc-text">Used for development operation</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Metrics_gathering_and_monitoring"><span class="toc-number">4.</span> <span class="toc-text">Metrics gathering and monitoring</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_documentation_gathering"><span class="toc-number">5.</span> <span class="toc-text">Used for documentation gathering</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_Internationalization_and_localization"><span class="toc-number">6.</span> <span class="toc-text">Used for Internationalization and localization</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#related_to_the_Django_debug_toolbar"><span class="toc-number">7.</span> <span class="toc-text">related to the Django debug toolbar</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_testing"><span class="toc-number">8.</span> <span class="toc-text">Used for testing</span></a></li></ol>
 		</div>
 		
-		<h2 id="MEAN是什么？"><a href="http://www.mean.io" target="_blank">MEAN</a>是什么？</h2>
-<h3 id="mongoDB">mongoDB</h3>
-<p>NoSQL数据库典型代表，兼顾敏捷和可扩展性</p>
-<h3 id="express">express</h3>
-<p>Express是基于node.js的一个很小又很灵活的网站应用框架</p>
-<h3 id="ANGULARJS">ANGULARJS</h3>
-<p>SngularJS允许HTML扩展，是快速开发的利器</p>
-<h4 id="Node-js">Node.js</h4>
-<p>Node.js是Chrome内嵌的JS运行环境</p>
-<h2 id="MEAN可以干什么？">MEAN可以干什么？</h2>
-<p>是制作原型系统、完成快速开发的一个很好的平台环境。</p>
+		<p>从开始接解OpenEdx起，就想好好整理它用到的第三方包。花了一个上午时间，先简要列下来。</p>
+<h1 id="开发、框架等">开发、框架等</h1>
+<p>beautifulsoup4==4.1.3 #是用Python写的一个HTML/XML的解析器，它可以很好的处理不规范标记并生成剖析树(parse tree)。 它提供简单又常用的导航（navigating），搜索以及修改剖析树的操作。它可以大大节省你的编程时间<br>beautifulsoup==3.2.1<br>bleach==1.2.2 #bleach是一个基于白名单的html过滤器<br>html5lib==0.95 #html5lib is a pure-python library for parsing HTML. It is designed to conform to the HTML 5 specification, which has formalized the error handling algorithms of popular web browsers<br>boto==2.13.3 #是AWS（AMAZON WEBSERVICE）的PYTHON封装<br>celery==3.0.19 #celery(芹菜)是一个异步任务队列/基于分布式消息传递的作业队列。它侧重于实时操作，但对调度支持也很好。<br>dealer==0.2.3 # 版本控制辅助工具<br>distribute&gt;=0.6.28, &lt;0.7 #setup tools 和替代，Python包管理工具<br>django-celery==3.0.17 #celery在django的使用<br>django-countries==1.5 #A Django application that provides country choices for use with forms, flag icons static files, and a country field for models.<br>django-extensions==1.2.5 # Django Extensions is a collection of custom extensions for the Django Framework.<br>django-filter==0.6.0 # Django-filter is a reusable Django application for allowing users to filter querysets dynamically<br>django-followit==0.0.3 # The followit django app allows to easily set up a capability for the site users to follow various things on the site, represented by django model objects.<br>django-keyedcache==1.4-6 # Django-keyedcache provides a simplified, speedy way to manage caching in Django apps.<br>django-kombu==0.9.4 # Kombu transport using the Django database as a message store.<br>django-mako==0.1.5pre # This module provides a drop in replacement of django templates for mako templates.<br>django-model-utils==1.4.0 # Django model mixins and utilities.<br>django-masquerade==0.1.6 # Masquerade is a simple app to allow site administrators (IE, any user with is_staff = True) to browse the site as a different user.<br>django-mptt==0.5.5 # Utilities for implementing Modified Preorder Tree Traversal with your Django Models and working with trees of Model instances. django-mptt is a reusable Django app which aims to make it easy for you to use MPTT with your own Django models.<br>django-openid-auth==0.4 # The django-auth-openid library can be used to add OpenID support to Django applications. It integrates with Django’s built in authentication system, so most applications require minimal changes to support OpenID login<br>django-robots==0.9.1 # A Django app for managing robots.txt files following the robots exclusion protocol<br>django-sekizai==0.6.1 # 这个应用的功能是你可能在父模板中定义一个占位符标签，然后在继承模板中向其加入具体内容    `<br>django-ses==0.4.1 # A Django email backend for Amazon’s Simple Email Service<br>django-storages==1.1.5 # django-storages is a collection of custom storage backends for Django. 支持Amazon S3 ,Apache Libcloud, Azure Storage FTP MongoDB 等<br>django-threaded-multihost==1.4-1 # django-threaded multihost provides support utilities to enable easy multi-site awareness in Django apps.<br>django-method-override==0.1.0 # Django Middleware for HTTP Method Override Form Params &amp; Header<br>djangorestframework==2.3.5 # django rest(Representational State Transfer)<br>django==1.4.8 # Python Web 开发框架<br>feedparser==5.1.3 # feedparser - Parse Atom and RSS feeds in Python.<br>fs==0.4.0 # PyFilesystem is an abstraction layer for filesystems. In the same way that Python’s file-like objects provide a common way of accessing files, PyFilesystem provides a common way of accessing entire filesystems<br>GitPython==0.3.2.RC1 # a python library used to interact with Git repositories.<br>glob2==0.3  # Version of the glob module that can capture patterns and supports recursive wildcards<br>gunicorn==0.17.4 # Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX<br>lazy==1.1 # Lazy attributes are computed attributes that are evaluated only once, the first time they are used. Subsequent uses return the results of the first call. They come handy when code should run<br>lxml==3.0.1 # lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API.<br>mako==0.9.1 # A super-fast templating language that borrows the best ideas from the existing templating languages.<br>Markdown==2.2.1 # Python implementation of Markdown<br>mongoengine==0.7.10 # MongoEngine is a Python Object-Document Mapper for working with MongoDB.<br>networkx==1.7 # Python package for creating and manipulating graphs and networks<br>nltk==2.0.4 # Natural Language Toolkit<br>oauthlib==0.5.1 # A generic, spec-compliant, thorough implementation of the OAuth request-signing logic OAuth（开放授权）是一个开放标准，允许用户让第三方应用访问该用户在某一网站上存储的私密的资源（如照片，视频，联系人列表），而无需将用户名和密码提供给第三方应用。<br>paramiko==1.9.0 # SSH2 protocol library<br>path.py==3.0.1 # A module wrapper for os.path<br>Pillow==1.7.8 # Python Imaging Library (Fork)<br>pip&gt;=1.4 # A tool for installing and managing Python packages.<br>polib==1.0.3 # A library to manipulate gettext files (po and mo files).<br>pycrypto&gt;=2.6 # Cryptographic modules for Python<br>pygments==1.6 # Pygments is a syntax highlighting package written in Python<br>pygraphviz==1.1 # python 的graphviz 实现 Graphviz （英文：Graph Visualization Software的缩写）是一个由AT&amp;T实验室启动的开源工具包，用于绘制DOT语言脚本描述的图形<br>pymongo==2.4.1 # Python driver for MongoDB<br>pyparsing==1.5.6 # Python parsing module<br>python-memcached==1.48 # Pure python memcached client<br>python-openid==2.2.5 # OpenID support for servers and consumers.<br>python-dateutil==2.1 # Extensions to the standard Python datetime module<br>python-social-auth==0.1.21 # Python social authentication made simple<br>pytz==2012h # World timezone definitions, modern and historical<br>pysrt==0.4.7 # SubRip (.srt) subtitle parser and writer<br>PyYAML==3.10 # YAML parser and emitter for Python<br>requests==1.2.3 # Python HTTP for Humans.<br>scipy==0.11.0 # SciPy: Scientific Library for Python<br>Shapely==1.2.16 # Shapely是一个基于几何引擎GEOS的Python扩展库。使用它可以很方便的处理多线和多边形等几何形状<br>singledispatch==3.4.0.2 #<br>sorl-thumbnail==11.12<br>South==0.7.6 # South是针对Django提供的syncdb同步models和数据库不足而开发的数据迁移工具，可以做为syncdb的替代工具。South能够将Model类的更改同步到数据库中<br>sure==1.2.3 # This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3.<br>sympy==0.7.1 # Computer algebra system (CAS) in Python<br>xmltodict==0.4.1 # Makes working with XML feel like you are working with JSON<br>django-ratelimit-backend==0.6 # Rate-limit your login attempts at the authentication backend level.<br>unicodecsv==0.9.4 # Python2’s stdlib csv module is nice, but it doesn’t support unicode. This module is a drop-in replacement </p>
+<h1 id="Used_for_debugging">Used for debugging</h1>
+<p>ipython==0.13.1 </p>
+<h1 id="Used_for_development_operation">Used for development operation</h1>
+<p>watchdog==0.6.0 #  Filesystem events monitoring Python监控文件变动</p>
+<h1 id="Metrics_gathering_and_monitoring">Metrics gathering and monitoring</h1>
+<p>dogapi==1.2.1 # Python bindings to Datadog’s API and a user-facing command line tool.<br>newrelic==2.4.0.4 # 使用New Relic后才算知道网站真正的问题出在哪里</p>
+<h1 id="Used_for_documentation_gathering">Used for documentation gathering</h1>
+<p>sphinx==1.1.3 # 她能够轻易地创建智慧和优雅的文档，她是出自Georg Brandl之手，在BSD许可证下授权<br>sphinx_rtd_theme==0.1.5</p>
+<h1 id="Used_for_Internationalization_and_localization">Used for Internationalization and localization</h1>
+<p>Babel==1.3<br>transifex-client==0.10</p>
+<h1 id="related_to_the_Django_debug_toolbar">related to the Django debug toolbar</h1>
+<p>django_debug_toolbar==0.9.4<br>django-debug-toolbar-mongo</p>
+<h1 id="Used_for_testing">Used for testing</h1>
+<p>chrono==1.0.2 #A (BSD licensed) context manager for timing execution.<br>coverage==3.7 #<br>ddt==0.7.1<br>django-crum==0.5<br>django_nose==1.1<br>factory_boy==2.2.1<br>freezegun==0.1.11<br>mock==1.0.1<br>nose-exclude<br>nose-ignore-docstring<br>nosexcover==1.0.7<br>pep8==1.4.5<br>pylint==0.28<br>python-subunit==0.0.16<br>rednose==0.3 #<br>selenium==2.34.0 #selenium 是一个web的自动化测试工具，不少学习功能自动化的同学开始首选selenium<br>splinter==0.5.4 #开源的轻量级前端测试工具<br>testtools==0.9.34 #testtools 提供了可以组合的 assert 函数，以及很多 IO 相关的测试函数实现<br>git+<a href="https://github.com/mfogel/django-settings-context-processor.git" target="_blank">https://github.com/mfogel/django-settings-context-processor.git</a><br>git+<a href="https://github.com/mitocw/django-cas.git" target="_blank">https://github.com/mitocw/django-cas.git</a> # django-cas version 2.0.3 with patch to be compatible with django 1.4</p>
   
 	</div>
 		<footer class="article-footer clearfix">
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/MongoDB，NodeJS/">MongoDB，NodeJS</a>
+  <span></span> <a href="/tags/数据分析/">数据分析</a><a href="/tags/python/">python</a><a href="/tags/OpenEdx/">OpenEdx</a>
   </div>
 
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/快速开发框架/">快速开发框架</a>
+  <a class="article-category-link" href="/categories/教育管理系统/">教育管理系统</a>
 </div>
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://chly.github.io/2014/05/15/原型系统快速开发框架mean简介/" data-title="原型系统快速开发框架MEAN简介 | Edu_Tracker" data-tsina="1094183764## e.g. 1790238327  Your weibo ID,It will be used in share button." class="share clearfix">
+  <div data-url="http://chly.github.io/2014/06/16/openedx用的python第三方包介绍/" data-title="OpenEdx用的python第三方包介绍 | Edu_Tracker" data-tsina="1094183764## e.g. 1790238327  Your weibo ID,It will be used in share button." class="share clearfix">
   </div>
 
 </div>
@@ -133,19 +133,11 @@ Node.js是Chrome内嵌的JS运行环境">
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2014/05/15/python常用的数据分析包/" title="Python常用的数据分析包">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  Python常用的数据分析包</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2014/05/15/使用非关系型数据库mongodb管理课程资源的好处/"  title="使用非关系型数据库MongoDB管理MOOCs课程资源的好处">
+<a href="/2014/05/29/有助于教与学的app/"  title="有助于教与学的app、软件等">
  <strong>NEXT:</strong><br/> 
- <span>使用非关系型数据库MongoDB管理MOOCs课程资源的好处
+ <span>有助于教与学的app、软件等
 </span>
 </a>
 </div>
@@ -162,7 +154,7 @@ Node.js是Chrome内嵌的JS运行环境">
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MEAN是什么？"><span class="toc-number">1.</span> <span class="toc-text">是什么？</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#mongoDB"><span class="toc-number">1.1.</span> <span class="toc-text">mongoDB</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#express"><span class="toc-number">1.2.</span> <span class="toc-text">express</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ANGULARJS"><span class="toc-number">1.3.</span> <span class="toc-text">ANGULARJS</span></a></li><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Node-js"><span class="toc-number">1.3.1.</span> <span class="toc-text">Node.js</span></a></li></ol></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#MEAN可以干什么？"><span class="toc-number">2.</span> <span class="toc-text">MEAN可以干什么？</span></a></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#开发、框架等"><span class="toc-number">1.</span> <span class="toc-text">开发、框架等</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_debugging"><span class="toc-number">2.</span> <span class="toc-text">Used for debugging</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_development_operation"><span class="toc-number">3.</span> <span class="toc-text">Used for development operation</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Metrics_gathering_and_monitoring"><span class="toc-number">4.</span> <span class="toc-text">Metrics gathering and monitoring</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_documentation_gathering"><span class="toc-number">5.</span> <span class="toc-text">Used for documentation gathering</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_Internationalization_and_localization"><span class="toc-number">6.</span> <span class="toc-text">Used for Internationalization and localization</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#related_to_the_Django_debug_toolbar"><span class="toc-number">7.</span> <span class="toc-text">related to the Django debug toolbar</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Used_for_testing"><span class="toc-number">8.</span> <span class="toc-text">Used for testing</span></a></li></ol>
   </div>
 
 <div id="asidepart">
